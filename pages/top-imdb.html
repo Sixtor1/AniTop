@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Топ 20 аниме по версии IMDB | AniTop</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+             <a href="../index.html" class="logo">
+                <i class="fas fa-play-circle"></i>
+                <span>AniTop</span>
+            </a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul id="navMenu">
+                    <li><a href="../index.html" class="active">Главная</a></li>
+                    <li><a href="../pages/novelties.html">Новинки 2025</a></li>
+                    <li><a href="../pages/top-imdb.html">Топ 20 IMDB</a></li>
+                    <li><a href="../pages/actors.html">Актеры озвучки</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Топ 20 аниме по версии IMDB</h1>
+            <p>Лучшие аниме всех времен по рейтингу пользователей Internet Movie Database. Обновляется ежемесячно.</p>
+        </div>
+    </section>
+
+    <section class="top-list">
+        <div class="container">
+            <div class="list-controls">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Поиск по названию...">
+                </div>
+                <div class="sort-controls">
+                    <span>Сортировка:</span>
+                    <select id="sortSelect">
+                        <option value="rating">По рейтингу</option>
+                        <option value="name">По названию</option>
+                        <option value="year">По году</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="top-items-container">
+                <!-- Аниме 1 -->
+                <div class="top-item" data-rating="9.1" data-year="2013" data-name="Атака титанов">
+                    <div class="top-rank">1</div>
+                    <div class="top-image">
+                        <img src="../images/ATAKA.jpg" alt="Атака титанов">
+                    </div>
+                    <div class="top-content">
+                        <div class="top-header">
+                            <h3 class="top-title">Атака титанов</h3>
+                            <div class="top-rating">
+                                <i class="fas fa-star"></i>
+                                <span>9.1/10</span>
+                            </div>
+                        </div>
+                        <div class="top-meta">
+                            <span class="top-year">2013-2023</span>
+                            <span class="top-episodes">89 эпизодов</span>
+                            <span class="top-genre">Экшен, Драма, Фэнтези</span>
+                        </div>
+                        <p class="top-description">Человечество живет в городах, окруженных гигантскими стенами, защищающими от титанов. После прорыва стены молодой Эрен Йегер клянется уничтожить всех титанов.</p>
+                        <div class="top-buttons">
+                            <a href="https://www.imdb.com/title/tt2560140/?ref_=ls_t_1" class="btn btn-primary"><i class="fas fa-info-circle"></i> Подробнее</a>
+                            <a href="https://www.imdb.com/list/ls086897992/?sort=user_rating%2Cdesc" target="_blank" class="btn btn-secondary"><i class="fab fa-imdb"></i> На IMDB</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Аниме 2 -->
+                <div class="top-item" data-rating="9.0" data-year="2009" data-name="Стальной алхимик: Братство">
+                    <div class="top-rank">2</div>
+                    <div class="top-image">
+                        <img src="../images/STAL.jpg" alt="Стальной алхимик">
+                    </div>
+                    <div class="top-content">
+                        <div class="top-header">
+                            <h3 class="top-title">Стальной алхимик: Братство</h3>
+                            <div class="top-rating">
+                                <i class="fas fa-star"></i>
+                                <span>9.0/10</span>
+                            </div>
+                        </div>
+                        <div class="top-meta">
+                            <span class="top-year">2009-2010</span>
+                            <span class="top-episodes">64 эпизода</span>
+                            <span class="top-genre">Приключения, Драма, Фэнтези</span>
+                        </div>
+                        <p class="top-description">Братья Эдвард и Альфонс Элрики ищут философский камень, чтобы восстановить свои тела после неудачной попытки воскресить мать с помощью алхимии.</p>
+                        <div class="top-buttons">
+                            <a href="https://www.imdb.com/title/tt1355642/?ref_=ls_t_2" class="btn btn-primary"><i class="fas fa-info-circle"></i> Подробнее</a>
+                            <a href="https://www.imdb.com/list/ls086897992/?sort=user_rating%2Cdesc" target="_blank" class="btn btn-secondary"><i class="fab fa-imdb"></i> На IMDB</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Аниме 3 -->
+                <div class="top-item" data-rating="9.0" data-year="1999" data-name="Ван-Пис">
+                    <div class="top-rank">3</div>
+                    <div class="top-image">
+                        <img src="../images/LUFF.jpg" alt="Ван-Пис">
+                    </div>
+                    <div class="top-content">
+                        <div class="top-header">
+                            <h3 class="top-title">Ван Пис</h3>
+                            <div class="top-rating">
+                                <i class="fas fa-star"></i>
+                                <span>9.0/10</span>
+                            </div>
+                        </div>
+                        <div class="top-meta">
+                            <span class="top-year">1999-</span>
+                            <span class="top-episodes">1000+ эпизодов</span>
+                            <span class="top-genre">Экшен, Приключения, Драма</span>
+                        </div>
+                        <p class="top-description">Мечтатель с резиновым телом Монки Д. Луффи собирает эклектичную пиратскую команду и преодолевает опасный Гранд Лайн, сражаясь с тиранами и монстрами, чтобы завоевать легендарный «One Piece» и стать Королём пиратов.</p>
+                        <div class="top-buttons">
+                            <a href="https://www.imdb.com/title/tt0388629/?ref_=ls_t_3" class="btn btn-primary"><i class="fas fa-info-circle"></i> Подробнее</a>
+                            <a href="https://www.imdb.com/list/ls086897992/?sort=user_rating%2Cdesc" target="_blank" class="btn btn-secondary"><i class="fab fa-imdb"></i> На IMDB</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Аниме 4 -->
+                <div class="top-item" data-rating="9.0" data-year="2006" data-name="Охотник х Охотник">
+                    <div class="top-rank">4</div>
+                    <div class="top-image">
+                        <img src="../images/XANT.jpg" alt="Охотник х Охотник">
+                    </div>
+                    <div class="top-content">
+                        <div class="top-header">
+                            <h3 class="top-title">Охотник х охотник</h3>
+                            <div class="top-rating">
+                                <i class="fas fa-star"></i>
+                                <span>9.0/10</span>
+                            </div>
+                        </div>
+                        <div class="top-meta">
+                            <span class="top-year">2011-2014</span>
+                            <span class="top-episodes">148 эпизодов</span>
+                            <span class="top-genre">Экшен, Драма</span>
+                        </div>
+                        <p class="top-description">Гон Фрисс стремится стать Охотником — исключительным существом, способным на величие. С друзьями и потенциалом он ищет отца, который ушёл от него, когда он был маленьким.</p>
+                        <div class="top-buttons">
+                            <a href="https://www.imdb.com/title/tt2098220/?ref_=ls_t_4" class="btn btn-primary"><i class="fas fa-info-circle"></i> Подробнее</a>
+                            <a href="https://www.imdb.com/list/ls086897992/?sort=user_rating%2Cdesc" target="_blank" class="btn btn-secondary"><i class="fab fa-imdb"></i> На IMDB</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Аниме 5 -->
+                <div class="top-item" data-rating="8.9" data-year="2006" data-name="Тетрадь смерти">
+                    <div class="top-rank">5</div>
+                    <div class="top-image">
+                        <img src="../images/L.jpg" alt="Тетрадь смерти">
+                    </div>
+                    <div class="top-content">
+                        <div class="top-header">
+                            <h3 class="top-title">Тетрадь смерти</h3>
+                            <div class="top-rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.9/10</span>
+                            </div>
+                        </div>
+                        <div class="top-meta">
+                            <span class="top-year">2006-2007</span>
+                            <span class="top-episodes">37 эпизодов</span>
+                            <span class="top-genre">Экшен, Фэнтези</span>
+                        </div>
+                        <p class="top-description">Умный старшеклассник отправляется в тайный крестовый поход, чтобы уничтожить преступников из мира, обнаружив тетрадь, способную убить любого, чьё имя написано в ней.</p>
+                        <div class="top-buttons">
+                            <a href="https://www.imdb.com/title/tt0877057/?ref_=ls_t_5" class="btn btn-primary"><i class="fas fa-info-circle"></i> Подробнее</a>
+                            <a href="https://www.imdb.com/list/ls086897992/?sort=user_rating%2Cdesc" target="_blank" class="btn btn-secondary"><i class="fab fa-imdb"></i> На IMDB</a>
+                        </div>
+                    </div>
+                </div>
+                                <!-- Аниме 6 -->
+                <div class="top-item" data-rating="8.9" data-year="1998" data-name="Ковбой Бибоп">
+                    <div class="top-rank">6</div>
+                    <div class="top-image">
+                        <img src="../images/COWB.jpg" alt="Ковбой Бибоп">
+                    </div>
+                    <div class="top-content">
+                        <div class="top-header">
+                            <h3 class="top-title">Ковбой Бибоп</h3>
+                            <div class="top-rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.9/10</span>
+                            </div>
+                        </div>
+                        <div class="top-meta">
+                            <span class="top-year">1998-1999</span>
+                            <span class="top-episodes">26 эпизодов</span>
+                            <span class="top-genre">Экшен, Фэнтези, </span>
+                        </div>
+                        <p class="top-description">Футуристические приключения и трагедии спокойного охотника за головами и его партнёров.</p>
+                        <div class="top-buttons">
+                            <a href="https://www.imdb.com/title/tt0213338/?ref_=ls_t_6" class="btn btn-primary"><i class="fas fa-info-circle"></i> Подробнее</a>
+                            <a href="https://www.imdb.com/list/ls086897992/?sort=user_rating%2Cdesc" target="_blank" class="btn btn-secondary"><i class="fab fa-imdb"></i> На IMDB</a>
+                        </div>
+                    </div>
+                </div>
+                                <!-- Аниме 7 -->
+                <div class="top-item" data-rating="8.8" data-year="2019" data-name="Сага о Винланде">
+                    <div class="top-rank">7</div>
+                    <div class="top-image">
+                        <img src="../images/TORFHIN.jpg" alt="Сага о Винланде">
+                    </div>
+                    <div class="top-content">
+                        <div class="top-header">
+                            <h3 class="top-title">Сага о Винланде</h3>
+                            <div class="top-rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.8/10</span>
+                            </div>
+                        </div>
+                        <div class="top-meta">
+                            <span class="top-year">2019-2023</span>
+                            <span class="top-episodes">48 эпизодов</span>
+                            <span class="top-genre">Экшен, Фэнтези, Исторический</span>
+                        </div>
+                        <p class="top-description">После трагедии Торфинн отправляется в путешествие вместе с человеком, ответственным за это, чтобы покончить с собой в дуэли как истинный и достойный воин.</p>
+                        <div class="top-buttons">
+                            <a href="https://www.imdb.com/title/tt0213338/?ref_=ls_t_6" class="btn btn-primary"><i class="fas fa-info-circle"></i> Подробнее</a>
+                            <a href="https://www.imdb.com/list/ls086897992/?sort=user_rating%2Cdesc" target="_blank" class="btn btn-secondary"><i class="fab fa-imdb"></i> На IMDB</a>
+                        </div>
+                    </div>
+                </div>
+                                <!-- Аниме 8 -->
+                <div class="top-item" data-rating="8.8" data-year="2011" data-name="Врата Штейна">
+                    <div class="top-rank">8</div>
+                    <div class="top-image">
+                        <img src="../images/VRAT.jpg" alt="Врата Штейна">
+                    </div>
+                    <div class="top-content">
+                        <div class="top-header">
+                            <h3 class="top-title">Врата Штейна</h3>
+                            <div class="top-rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.8/10</span>
+                            </div>
+                        </div>
+                        <div class="top-meta">
+                            <span class="top-year">2011-2015</span>
+                            <span class="top-episodes">26 эпизодов</span>
+                            <span class="top-genre">Экшен, Фэнтези, Исторический</span>
+                        </div>
+                        <p class="top-description">Открыв для себя путешествия во времени, студент университета и его коллеги должны использовать свои знания, чтобы остановить злую организацию и их дьявольские планы.</p>
+                        <div class="top-buttons">
+                            <a href="https://www.imdb.com/title/tt1910272/?ref_=ls_t_8" class="btn btn-primary"><i class="fas fa-info-circle"></i> Подробнее</a>
+                            <a href="https://www.imdb.com/list/ls086897992/?sort=user_rating%2Cdesc" target="_blank" class="btn btn-secondary"><i class="fab fa-imdb"></i> На IMDB</a>
+                        </div>
+                    </div>
+                </div>
+                                <!-- Аниме 9 -->
+                <div class="top-item" data-rating="8.7" data-year="2007" data-name="Наруто Ураганные хроники">
+                    <div class="top-rank">9</div>
+                    <div class="top-image">
+                        <img src="../images/MADARA.jpg" alt="Наруто Ураганные хроники">
+                    </div>
+                    <div class="top-content">
+                        <div class="top-header">
+                            <h3 class="top-title">Наруто Ураганные хроники</h3>
+                            <div class="top-rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.7/10</span>
+                            </div>
+                        </div>
+                        <div class="top-meta">
+                            <span class="top-year">2007-2017</span>
+                            <span class="top-episodes">501 эпизодов</span>
+                            <span class="top-genre">Экшен, Фэнтези, Драма</span>
+                        </div>
+                        <p class="top-description">Наруто Узумаки — громкий, гиперактивный, подростковый ниндзя, который постоянно ищет одобрения и признания, а также стать Хокаге, признанным лидером и самым сильным из всех ниндзя в деревне.</p>
+                        <div class="top-buttons">
+                            <a href="https://www.imdb.com/title/tt0988824/?ref_=ls_t_9" class="btn btn-primary"><i class="fas fa-info-circle"></i> Подробнее</a>
+                            <a href="https://www.imdb.com/list/ls086897992/?sort=user_rating%2Cdesc" target="_blank" class="btn btn-secondary"><i class="fab fa-imdb"></i> На IMDB</a>
+                        </div>
+                    </div>
+                </div>
+                                <!-- Аниме 10 -->
+                <div class="top-item" data-rating="8.8" data-year="2006" data-name="Код Гиас: Bосставший Лелуш">
+                    <div class="top-rank">10</div>
+                    <div class="top-image">
+                        <img src="../images/LEUSH.jpg" alt="Код Гиас: Bосставший Лелуш">
+                    </div>
+                    <div class="top-content">
+                        <div class="top-header">
+                            <h3 class="top-title">Код Гиас: Bосставший Лелуш</h3>
+                            <div class="top-rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.7/10</span>
+                            </div>
+                        </div>
+                        <div class="top-meta">
+                            <span class="top-year">2006-2008</span>
+                            <span class="top-episodes">54 эпизодов</span>
+                            <span class="top-genre">Экшен, Фэнтези, Исторический</span>
+                        </div>
+                        <p class="top-description">Получив загадочную силу контролировать других, изгнанный принц становится маскированным лидером восстания против всемогущей империи.</p>
+                        <div class="top-buttons">
+                            <a href="https://www.imdb.com/title/tt0994314/?ref_=ls_t_10" class="btn btn-primary"><i class="fas fa-info-circle"></i> Подробнее</a>
+                            <a href="https://www.imdb.com/list/ls086897992/?sort=user_rating%2Cdesc" target="_blank" class="btn btn-secondary"><i class="fab fa-imdb"></i> На IMDB</a>
+                        </div>
+                    </div>
+                </div>
+                                <!-- Аниме 11 -->
+                <div class="top-item" data-rating="8.7" data-year="2014-2020" data-name="Волейбол!!">
+                    <div class="top-rank">11</div>
+                    <div class="top-image">
+                        <img src="../images/HAIKU.jpg" alt="Волейбол!!">
+                    </div>
+                    <div class="top-content">
+                        <div class="top-header">
+                            <h3 class="top-title">Волейбол!!</h3>
+                            <div class="top-rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.7/10</span>
+                            </div>
+                        </div>
+                        <div class="top-meta">
+                            <span class="top-year">2014-2020</span>
+                            <span class="top-episodes">89 эпизодов</span>
+                            <span class="top-genre">Экшен,спорт</span>
+                        </div>
+                        <p class="top-description">Решив стать как звезда чемпионата по волейболу, прозванный «маленьким гигантом», Шойо вступает в школьный волейбольный клуб.</p>
+                        <div class="top-buttons">
+                            <a href="https://www.imdb.com/title/tt3398540/?ref_=ls_t_11" class="btn btn-primary"><i class="fas fa-info-circle"></i> Подробнее</a>
+                            <a href="https://www.imdb.com/list/ls086897992/?sort=user_rating%2Cdesc" target="_blank" class="btn btn-secondary"><i class="fab fa-imdb"></i> На IMDB</a>
+                        </div>
+                    </div>
+                </div>
+                                <!-- Аниме 12 -->
+                <div class="top-item" data-rating="8.6" data-year="2015" data-name="Ванпанчмен">
+                    <div class="top-rank">49</div>
+                    <div class="top-image">
+                        <img src="../images/VANPUNCH.jpg" alt="Демон Слейер">
+                    </div>
+                    <div class="top-content">
+                        <div class="top-header">
+                            <h3 class="top-title">Ванпанчмен</h3>
+                            <div class="top-rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.8/10</span>
+                            </div>
+                        </div>
+                        <div class="top-meta">
+                            <span class="top-year">2015 -</span>
+                            <span class="top-episodes">49 эпизодов</span>
+                            <span class="top-genre">Экшен, Фэнтези,Комедия</span>
+                        </div>
+                        <p class="top-description">История Сайтамы — героя, который делает это просто ради забавы и может победить врагов одним ударом.</p>
+                        <div class="top-buttons">
+                            <a href="https://www.imdb.com/title/tt4508902/?ref_=ls_t_12" class="btn btn-primary"><i class="fas fa-info-circle"></i> Подробнее</a>
+                            <a href="https://www.imdb.com/list/ls086897992/?sort=user_rating%2Cdesc" target="_blank" class="btn btn-secondary"><i class="fab fa-imdb"></i> На IMDB</a>
+                        </div>
+                    </div>
+                </div>
+                                <!-- Аниме 13 -->
+                <div class="top-item" data-rating="8.6" data-year="2019" data-name="Демон Слейер">
+                    <div class="top-rank">13</div>
+                    <div class="top-image">
+                        <img src="../images/KRDPRIME.jpg" alt="Демон Слейер">
+                    </div>
+                    <div class="top-content">
+                        <div class="top-header">
+                            <h3 class="top-title">Демон Слейер: Кимэцу но Яйба</h3>
+                            <div class="top-rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.6/10</span>
+                            </div>
+                        </div>
+                        <div class="top-meta">
+                            <span class="top-year">2019-2024</span>
+                            <span class="top-episodes">63 эпизодов</span>
+                            <span class="top-genre">Экшен, Фэнтези, Исторический</span>
+                        </div>
+                        <p class="top-description">Танджиро Камадо становится охотником на демонов после того, как его семья была убита демоном, а сестра превращена в демона.</p>
+                        <div class="top-buttons">
+                            <a href="https://www.imdb.com/title/tt9335498/?ref_=ls_t_13" class="btn btn-primary"><i class="fas fa-info-circle"></i> Подробнее</a>
+                            <a href="https://www.imdb.com/list/ls086897992/?sort=user_rating%2Cdesc" target="_blank" class="btn btn-secondary"><i class="fab fa-imdb"></i> На IMDB</a>
+                        </div>
+                    </div>
+                </div>
+                                <!-- Аниме 14 -->
+                <div class="top-item" data-rating="8.5" data-year="2020" data-name="Магическая битва">
+                    <div class="top-rank">14</div>
+                    <div class="top-image">
+                        <img src="../images/GOJO.jpg" alt="Магическая битва">
+                    </div>
+                    <div class="top-content">
+                        <div class="top-header">
+                            <h3 class="top-title">Магическая битва</h3>
+                            <div class="top-rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.5/10</span>
+                            </div>
+                        </div>
+                        <div class="top-meta">
+                            <span class="top-year">2020 -</span>
+                            <span class="top-episodes">48 эпизодов</span>
+                            <span class="top-genre">Экшен, Фэнтези, </span>
+                        </div>
+                        <p class="top-description">Мальчик проглатывает проклятый талисман — палец демона — и сам становится проклятым. Он поступает в школу шаманов, чтобы найти другие части тела демона и таким образом изгнать себя.</p>
+                        <div class="top-buttons">
+                            <a href="https://www.imdb.com/title/tt12343534/?ref_=ls_t_14" class="btn btn-primary"><i class="fas fa-info-circle"></i> Подробнее</a>
+                            <a href="https://www.imdb.com/list/ls086897992/?sort=user_rating%2Cdesc" target="_blank" class="btn btn-secondary"><i class="fab fa-imdb"></i> На IMDB</a>
+                        </div>
+                    </div>
+                </div>
+                                <!-- Аниме 15 -->
+                <div class="top-item" data-rating="8.5" data-year="2003" data-name="Стальной алхимик">
+                    <div class="top-rank">15</div>
+                    <div class="top-image">
+                        <img src="../images/edward.jpg" alt="Стальной алхимик">
+                    </div>
+                    <div class="top-content">
+                        <div class="top-header">
+                            <h3 class="top-title">Стальной алхимик</h3>
+                            <div class="top-rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.5/10</span>
+                            </div>
+                        </div>
+                        <div class="top-meta">
+                            <span class="top-year">2019-2023</span>
+                            <span class="top-episodes">55 эпизодов</span>
+                            <span class="top-genre">Экшен, Фэнтези, Исторический</span>
+                        </div>
+                        <p class="top-description">Когда неудачный алхимический ритуал оставляет братьев Эдварда и Альфонса Элриков с сильно повреждёнными телами, они начинают искать единственное, что может их спасти: легендарный философский камень.</p>
+                        <div class="top-buttons">
+                            <a href="https://www.imdb.com/title/tt0421357/?ref_=ls_t_15" class="btn btn-primary"><i class="fas fa-info-circle"></i> Подробнее</a>
+                            <a href="https://www.imdb.com/list/ls086897992/?sort=user_rating%2Cdesc" target="_blank" class="btn btn-secondary"><i class="fab fa-imdb"></i> На IMDB</a>
+                        </div>
+                    </div>
+                </div>
+                                <!-- Аниме 16 -->
+                <div class="top-item" data-rating="8.8" data-year="2002" data-name="Наруто">
+                    <div class="top-rank">16</div>
+                    <div class="top-image">
+                        <img src="../images/NARUTO.jpg" alt="Демон Слейер">
+                    </div>
+                    <div class="top-content">
+                        <div class="top-header">
+                            <h3 class="top-title">Наруто</h3>
+                            <div class="top-rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.8/10</span>
+                            </div>
+                        </div>
+                        <div class="top-meta">
+                            <span class="top-year">2002-2007</span>
+                            <span class="top-episodes">220 эпизодов</span>
+                            <span class="top-genre">Экшен, Фэнтези,Драма,Комедия</span>
+                        </div>
+                        <p class="top-description">Наруто Узумаки, озорной подросток-ниндзя, борется в поисках признания и мечтает стать Хокаге, лидером деревни и сильнейшим ниндзя.</p>
+                        <div class="top-buttons">
+                            <a href="#" class="btn btn-primary"><i class="fas fa-info-circle"></i> Подробнее</a>
+                            <a href="https://www.imdb.com/title/tt0409591/?ref_=ls_t_16" target="_blank" class="btn btn-secondary"><i class="fab fa-imdb"></i> На IMDB</a>
+                        </div>
+                    </div>
+                </div>
+                                <!-- Аниме 17 -->
+                <div class="top-item" data-rating="8.4" data-year="2018" data-name="Врата Штейна: Ноль">
+                    <div class="top-rank">17</div>
+                    <div class="top-image">
+                        <img src="../images/Vrata.jpg" alt="Врата Штейна: Ноль">
+                    </div>
+                    <div class="top-content">
+                        <div class="top-header">
+                            <h3 class="top-title">Врата Штейна: Ноль</h3>
+                            <div class="top-rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.4/10</span>
+                            </div>
+                        </div>
+                        <div class="top-meta">
+                            <span class="top-year">2018</span>
+                            <span class="top-episodes">24 эпизодов</span>
+                            <span class="top-genre">Экшен, Фэнтези, Исторический, науч.</span>
+                        </div>
+                        <p class="top-description">Безумный учёный Окабе пытается оправиться после прошлых неудач и испытывает новый искусственный интеллект</p>
+                        <div class="top-buttons">
+                            <a href="https://www.imdb.com/title/tt5514358/?ref_=ls_t_17" class="btn btn-primary"><i class="fas fa-info-circle"></i> Подробнее</a>
+                            <a href="https://www.imdb.com/list/ls086897992/?sort=user_rating%2Cdesc" target="_blank" class="btn btn-secondary"><i class="fab fa-imdb"></i> На IMDB</a>
+                        </div>
+                    </div>
+                </div>
+                                <!-- Аниме 18 -->
+                <div class="top-item" data-rating="8.2" data-year="2016" data-name="Моя геройская академия">
+                    <div class="top-rank">18</div>
+                    <div class="top-image">
+                        <img src="../images/MGA.jpg" alt="Моя геройская академия">
+                    </div>
+                    <div class="top-content">
+                        <div class="top-header">
+                            <h3 class="top-title">Моя геройская академия</h3>
+                            <div class="top-rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.2/10</span>
+                            </div>
+                        </div>
+                        <div class="top-meta">
+                            <span class="top-year">2016-</span>
+                            <span class="top-episodes">181 эпизодов</span>
+                            <span class="top-genre">Экшен, Фэнтези,</span>
+                        </div>
+                        <p class="top-description">Мальчик, восхищающийся супергероями, поступает в престижную академию героев и узнаёт, что значит быть героем, после того как самый сильный супергерой дарует ему собственные силы.</p>
+                        <div class="top-buttons">
+                            <a href="#" class="btn btn-primary"><i class="fas fa-info-circle"></i> Подробнее</a>
+                            <a href="https://www.imdb.com/title/tt5626028/?ref_=ls_t_18" target="_blank" class="btn btn-secondary"><i class="fab fa-imdb"></i> На IMDB</a>
+                        </div>
+                    </div>
+                </div>
+                                <!-- Аниме 19 -->
+                <div class="top-item" data-rating="8.2" data-year="2014" data-name="Паразит">
+                    <div class="top-rank">19</div>
+                    <div class="top-image">
+                        <img src="../images/PARAZ.jpg" alt="Паразит">
+                    </div>
+                    <div class="top-content">
+                        <div class="top-header">
+                            <h3 class="top-title">Паразит</h3>
+                            <div class="top-rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.2/10</span>
+                            </div>
+                        </div>
+                        <div class="top-meta">
+                            <span class="top-year">2014-2015</span>
+                            <span class="top-episodes">24 эпизодов</span>
+                            <span class="top-genre">Экшен, Фэнтези, Триллер</span>
+                        </div>
+                        <p class="top-description">17-летний Синичи Изуми частично заражён паразитами — монстрами, которые убивают и поедают людей. Он должен научиться сосуществовать с существом, если хочет выжить и в жизни паразита, и в человеке как наполовину монстр, наполовину человек.</p>
+                        <div class="top-buttons">
+                            <a href="#" class="btn btn-primary"><i class="fas fa-info-circle"></i> Подробнее</a>
+                            <a href="https://www.imdb.com/title/tt3358020/?ref_=ls_t_19" target="_blank" class="btn btn-secondary"><i class="fab fa-imdb"></i> На IMDB</a>
+                        </div>
+                    </div>
+                </div>
+                                <!-- Аниме 20 -->
+                <div class="top-item" data-rating="8.1" data-year="2019" data-name="Обещанный Неверленд">
+                    <div class="top-rank">20</div>
+                    <div class="top-image">
+                        <img src="../images/OBESH.jpg" alt="Обещанный Неверленд">
+                    </div>
+                    <div class="top-content">
+                        <div class="top-header">
+                            <h3 class="top-title">Обещанный Неверленд</h3>
+                            <div class="top-rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.1/10</span>
+                            </div>
+                        </div>
+                        <div class="top-meta">
+                            <span class="top-year">2019-2021</span>
+                            <span class="top-episodes">24 эпизодов</span>
+                            <span class="top-genre">Экшен, Фэнтези, триллер, драма</span>
+                        </div>
+                        <p class="top-description">Когда трое одарённых детей в изолированном идиллическом приюте обнаруживают тайную и зловатую цель, ради которой их воспитывали, они ищут способ сбежать от злого опекуна и ведут других детей в рискованный план побега.</p>
+                        <div class="top-buttons">
+                            <a href="https://www.imdb.com/title/tt8788458/?ref_=ls_t_20" class="btn btn-primary"><i class="fas fa-info-circle"></i> Подробнее</a>
+                            <a href="https://www.imdb.com/title/tt9335498/" target="_blank" class="btn btn-secondary"><i class="fab fa-imdb"></i> На IMDB</a>
+                        </div>
+                    </div>
+                </div>
+                              
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="../index.html" class="footer-logo">
+                        <i class="fas fa-play-circle"></i>
+                        <span>AniTop</span>
+                    </a>
+                    <p class="footer-description">Аниме-сообщество России. Мы предоставляем актуальную информацию о новинках, рейтингах и актерах озвучки.</p>
+                </div>
+                <div class="footer-links-container">
+                    <h3 class="footer-title">Разделы</h3>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Главная</a></li>
+                        <li><a href="../pages/novelties.html">Новинки 2025</a></li>
+                        <li><a href="../pages/top-imdb.html">Топ 20 IMDB</a></li>
+                        <li><a href="../pages/actors.html">Актеры озвучки</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-container">
+                    <h3 class="footer-title">Контакты</h3>
+                    <ul class="footer-links">
+                        <li><a href="mailto:info@anitop.ru"><i class="fas fa-envelope"></i> info@anitop.ru</a></li>
+                        <li><a href="#"><i class="fab fa-vk"></i> ВКонтакте</a></li>
+                        <li><a href="#"><i class="fab fa-telegram"></i> Telegram</a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i> YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 AniTop. Все права защищены. Данный сайт является учебным проектом.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/utils.js"></script>
+</body>
+</html>
